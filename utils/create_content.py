@@ -57,3 +57,5 @@ if __name__ == '__main__':
 
     if len(django_contacts) > 0:
         Contact.objects.bulk_create(django_contacts)
+
+# teste
